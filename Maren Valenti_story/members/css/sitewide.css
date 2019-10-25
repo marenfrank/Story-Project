@@ -1,0 +1,239 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/*
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: 'Rubik Mono One', 'Helvetica', sans-serif;
+	font-family: 'Rubik', 'Helvetica', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: black;
+	background-color: black;
+}
+
+.title {
+	font-family:'Rubik Mono One';
+	text-align: center;
+	padding: none;
+	margin: none;
+	font-size: 3em;
+	line-height: 1em;
+	position: absolute;
+	grid-row: 1/1;
+}
+
+#top {
+	color: #C73855;
+	margin: 20px;
+	padding-bottom: .05em;
+	text-align: center;
+	z-index: 1;
+}
+
+#bottom {
+	color: white;
+	margin: 16px;
+	padding-bottom: .05em;
+	text-align: center;
+	z-index: 2;
+}
+
+.global {
+	grid-column: 1/5;
+	grid-row: 2/3;
+	margin-top: 0em;
+}
+
+.global ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+
+}
+
+.global li {
+	display: block;
+	flex-basis: 300px;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	color: #C73855;
+	font-family: 'Rubik Mono One';
+	text-align: center;
+	padding: 1.5em;
+	background-color: white;
+
+}
+
+.global a:link{
+	text-decoration: none;
+}
+
+.global li:hover {
+	background: #661111;
+	transition: all 1.5s;
+}
+
+
+.stone3 {
+	grid-row: 3/4;
+	grid-column: 1/2;
+	max-height: 45%;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}
+
+.stone2 {
+	grid-row: 3/4;
+	grid-column: 2/3;
+	max-height: 40%;
+	padding-top: 0em;
+	padding-left: 2em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}
+
+.stone4 {
+	grid-row: 3/4;
+	grid-column: 3/4;
+	max-height: 40%;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}
+
+.stone1 {
+	grid-row: 3/4;
+	grid-column: 4/5;
+	max-height: 40%;
+	padding-top: 0em;
+	padding-left: 0em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}
+
+.g {
+	font-family: 'Rubik Mono One';
+	text-align: left;
+	color: #C73855;
+	grid-row: 4/5;
+	grid-column: 1/2;
+	margin-bottom: 2em;
+}
+
+.gtext {
+	font-family: 'Rubik';
+	color: white;
+	grid-row: 4/5;
+	grid-column: 1/2;
+	margin-top: 4em;
+}
+
+.r {
+	font-family: 'Rubik Mono One';
+	text-align: left;
+	color: #C73855;
+	grid-row: 4/5;
+	grid-column: 2/3;
+	margin-bottom: 2em;
+}
+
+.rtext {
+	font-family: 'Rubik';
+	color: white;
+	grid-row: 4/5;
+	grid-column: 2/3;
+	margin-top: 4em;
+}
+
+.f {
+	font-family: 'Rubik Mono One';
+	text-align: left;
+	color: #C73855;
+	grid-row: 4/5;
+	grid-column: 3/4;
+	margin-bottom: 2em;
+}
+
+.ftext {
+	font-family: 'Rubik';
+	color: white;
+	grid-row: 4/5;
+	grid-column: 3/4;
+	margin-top: 4em;
+}
+
+.m {
+	font-family: 'Rubik Mono One';
+	text-align: left;
+	color: #C73855;
+	grid-row: 4/5;
+	grid-column: 4/5;
+	margin-bottom: 2em;
+}
+
+.mtext {
+	font-family: 'Rubik';
+	color: white;
+	grid-row: 4/5;
+	grid-column: 4/5;
+	margin-top: 4em;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
+.container {
+	padding: 1em;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 1.5em;
+	grid-template-rows: .2fr .2fr .5fr 4fr;
+}
+
+
+
+/* ------------------------------------------------------------ */
+/* media query containing styles for larger screens */
+@media (min-width: 720px) {
+
+	/* container on larger screens */
+	.container {
+		width: 90%;
+		max-width: 1200px;
+		margin: 2em;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2em;
+
+	}
+
+} /* end media query */

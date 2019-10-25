@@ -1,0 +1,154 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/*
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: 'Rubik Mono One', 'Helvetica', sans-serif;
+	font-family: 'Rubik', 'Helvetica', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-color: black;
+
+}
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
+.container {
+	padding: 1em;
+	background-color: black;
+	border-color: white;
+	display: grid;
+}
+
+
+
+.title {
+	font-family:'Rubik Mono One';
+	text-align: center;
+	padding: none;
+	margin: .5em;
+	font-size: 3em;
+	line-height: 1em;
+	position: absolute;
+	grid-row: 1/1;
+}
+
+#top {
+	color: #C73855;
+	margin: 20px;
+	padding-bottom: .05em;
+	text-align: center;
+	z-index: 1;
+}
+
+#bottom {
+	color: white;
+	margin: 16px;
+	padding-bottom: .05em;
+	text-align: center;
+	z-index: 2;
+}
+
+
+.sidebar {
+	grid-column: 1/2;
+	margin-top: 0em;
+	background-color: white;
+	height: 100vh;
+
+}
+
+.global ul {
+	list-style-type: none;
+	padding: 0;
+
+
+}
+
+.global li {
+	display: block;
+	flex-basis: 300px;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	color: #C73855;
+	font-family: 'Rubik Mono One';
+	text-align: center;
+	padding: 1.5em;
+	background-color: white;
+
+}
+
+.global a:link{
+	text-decoration: none;
+}
+
+.global li:hover {
+	background: #661111;
+	transition: all 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------ */
+/* media query containing styles for larger screens */
+@media (min-width: 720px) {
+
+	/* container on larger screens */
+	.container {
+		width: 90%;
+		max-width: 1200px;
+		margin: 2em;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2em;
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-column: 2/3;
+	}
+
+	.BIG {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+	}
+
+	.title {
+		text-align: center;
+	}
+
+
+} /* end media query */
