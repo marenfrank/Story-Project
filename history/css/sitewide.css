@@ -136,7 +136,29 @@ blockquote {
 
 }
 
+.both {
+	grid-column: 2/3;
+	max-height: 35vh;
+}
 
+.g{
+	max-height: 43vh;
+
+}
+
+.circle   {
+	max-height: 40vh;
+	margin: none;
+}
+
+.knife {
+	max-height: 45vh;
+}
+
+.knife2 {
+	max-height: 40vh;
+	padding: 0;
+}
 
 
 
@@ -165,8 +187,6 @@ blockquote {
 	.title {
 		text-align: center;
 	}
-	.both {
-		grid-column: 2/3;
-	}
+
 
 } /* end media query */

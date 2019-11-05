@@ -101,40 +101,44 @@ body {
 .stone3 {
 	grid-row: 3/4;
 	grid-column: 1/2;
-	max-height: 45%;
-	padding-top: 0em;
+	max-height: 20vh;
+	padding-top: 1em;
 	padding-bottom: 0em;
 	margin-bottom: 0em;
+	padding-left: 1em;
 }
 
 .stone2 {
 	grid-row: 3/4;
 	grid-column: 2/3;
-	max-height: 40%;
+	max-height: 95%;
 	padding-top: 0em;
-	padding-left: 2em;
+	padding-left: 3em;
 	padding-right: 0em;
 	padding-bottom: 0em;
 	margin-bottom: 0em;
+
 }
 
 .stone4 {
 	grid-row: 3/4;
 	grid-column: 3/4;
-	max-height: 40%;
+	max-height: 95%;
 	padding-top: 0em;
 	padding-bottom: 0em;
 	margin-bottom: 0em;
+	padding-left: 5em;
 }
 
 .stone1 {
 	grid-row: 3/4;
 	grid-column: 4/5;
-	max-height: 40%;
+	max-height: 95%;
 	padding-top: 0em;
 	padding-left: 0em;
 	padding-bottom: 0em;
 	margin-bottom: 0em;
+	padding-left: 2em;
 }
 
 .g {
@@ -152,6 +156,12 @@ body {
 	grid-row: 4/5;
 	grid-column: 1/2;
 	margin-top: 4em;
+}
+
+.gimage  {
+	grid-row: 4/5;
+	grid-column: 1/2;
+	padding-top: 30em;
 }
 
 .r {
@@ -216,7 +226,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-column-gap: 1.5em;
-	grid-template-rows: .2fr .2fr .5fr 4fr;
+	grid-template-rows: .5fr .2fr .25fr 4fr;
 }
 
 

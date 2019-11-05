@@ -125,6 +125,7 @@ body {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	text-align: left;
 
 }
 
@@ -154,7 +155,8 @@ body {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
-
+	text-align: left;
+	padding-top: 1em;
 }
 
 .t {
@@ -182,7 +184,8 @@ body {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
-
+	text-align: left;
+	padding-top: 1em;
 }
 
 .p {
@@ -210,7 +213,7 @@ body {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
-
+	text-align: left;
 }
 
 .d {
@@ -231,6 +234,10 @@ body {
 	font-size: .8em;
 }
 
+.dec {
+	grid-row: 6/7;
+	border-top: solid #C73855;
+}
 
 /*	Generally, you will only want one container element in
 	the document, wrapping around the main content area.
