@@ -117,7 +117,7 @@ h3 {
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 	text-indent: 2em;
 	margin-bottom: .5em;
 	margin-top: .5em;
@@ -180,7 +180,7 @@ blockquote {
 		margin-left: auto;
 		padding: 2em;
 		display: grid;
-		grid-template-rows: .03fr .005fr 2fr;
+		grid-template-rows: .02fr .005fr 2fr;
 		grid-template-columns: .25fr 1fr .25fr;
 	}
 
