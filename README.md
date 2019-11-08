@@ -70,7 +70,10 @@ by Maren Valenti
 
 Album Icons
 by Maren Valenti
-
+Record Image Used
+https://commons.wikimedia.org/wiki/File:12in-Vinyl-LP-Record-Angle.jpg
+Wikipedia:Evan-Amos
+Free
 
 ***
 
