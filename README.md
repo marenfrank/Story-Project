@@ -11,26 +11,49 @@ Maren Valenti
 Photo of Gerard Way (Warped Tour)
 http://imageupper.com/i/?S1100010010191J15122320232096346
 MCR HQ
+Edited by Maren Valenti
 Free
 
 Photo of Gerard Way and Ray Toro
 http://imageupper.com/i/?S1200010020081W1516991699140902
 MCR HQ
+Edited by Maren Valenti
 Free
 
 Photo of Gerard Way (World Contamination Tour)
 http://imageupper.com/i/?S1100010010051J15122320232096346
 MCR HQ
+Edited by Maren Valenti
 Free
 
 Concert Photo (December 2008)
 https://commons.wikimedia.org/wiki/File:My_Chemical_Romance_lights.jpg
 by Jorge
+Edited by Maren Valenti
 Free
 
 Photo of Gerard Way with Fire
 http://imageupper.com/i/?S0200010070141M13417751101558837
 MCR HQ
+Edited by Maren Valenti
+Free
+
+Photo of Mikey Way (2011)
+https://commons.wikimedia.org/wiki/File:Mikey_Way_East_Scene_2.jpg
+Wikipedia
+Edited by Maren Valenti
+Free
+
+Photo of Frank Iero
+http://imageupper.com/code/?S020001010P14654527431201019
+MCR HQ
+Edited by Maren Valenti
+Free
+
+Photo of Ray Toro
+https://imgur.com/OXHyq2h
+MCR HQ
+Edited by Maren Valenti
 Free
 
 Angel Statue
@@ -44,6 +67,10 @@ by Maren Valenti
 
 Gravestones
 by Maren Valenti
+
+Album Icons
+by Maren Valenti
+
 
 ***
 
